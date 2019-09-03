@@ -30,6 +30,7 @@ np.random.seed(1)
 
 
 #Binary Call Option ( all or nothing)
+#Create functions to calculate options
 def binarycall_option(T,So,K, sigma,r,N,M):
     """
     function to calculate call price using gbm
